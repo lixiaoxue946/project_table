@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>project</title>
+    <script src="/merchant/config.js"></script>
+    <script>
+      (function(global) {
+        var config = {
+          BASE_URL: BASE_URL || "",
+        };
+
+        global.app = {
+          env: config,
+        };
+      })(window);
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
